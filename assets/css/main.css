@@ -1,0 +1,61 @@
+@import url("https://fonts.googleapis.com/css2?family=Source+Code+Pro&display=swap");
+
+body {
+    background-color: #282a36;
+    font-family: "Source Code Pro", monospace;
+    background: url(../img/Fondo.gif) no-repeat center center fixed;
+    background-size: cover;
+}
+
+h1 {
+    color: #50fa7b;
+}
+
+h2 {
+    color: #bd93f9;
+}
+
+h5, #textocarusel {
+    background-color: #282a36;
+    color: #50fa7b
+}
+
+p,
+li {
+    color: #f8f8f2;
+    text-align: justify
+}
+
+
+#presentacion, #habilidades {
+    text-align: justify;
+}
+
+button {
+    background-color: transparent;
+    border-color: transparent;
+    color: #bd93f9;
+    transition: 0.5s;
+}
+
+/* #botones {
+    justify-content: center;
+} */
+
+#soy {
+    font-size: 1.5em;
+    margin-top: 15px;
+    margin-left: 5px;
+    margin-bottom: -10px;
+}
+
+#nombre {
+    font-size: 5em;
+    letter-spacing: 16.8px
+}
+
+#dev {
+    margin-top: -16px;
+    margin-right: 19px;
+    font-size: 2em;
+}
