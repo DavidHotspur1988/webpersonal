@@ -23,26 +23,26 @@
       <h2 class="text-center">¿Trabajemos juntos?</h2>
     </div>
     <!-- FORMULARIO -->
-    <form action="https://formsubmit.co/david.nunez88.udla@gmail.com" method="post" enctype="application/x-www-form-urlencoded">
+    <form action="https://formsubmit.co/david.nunez88.udla@gmail.com" method="post">
       <div class="row">
         <div class="col">
-          <input class="w-100" type="text" name="nombre" placeholder="Nombre" required /><br />
+          <input type="text" class="w-100" name="nombre" placeholder="Nombre" autofocus><br/>
         </div>
       </div>
       <div class="row">
         <div class="col-6">
-          <input class="w-100" type="text" name="empresa" placeholder="Empresa" required /><br />
+          <input type="text" class="w-100" name="empresa" placeholder="Empresa" required><br/>
         </div>
         <div class="col-6">
-          <input class="w-100" type="email" name="email" placeholder="Email" required /><br />
+          <input type="email" class="w-100" name="email" placeholder="Email" required /><br/>
         </div>
       </div>
       <div class="row">
         <div class="col-6">
-          <input type="tel" class="w-100" min="1" pattern="^[0-9]+" name="telefono" placeholder="Telefono" required /><br />
+          <input type="tel" class="w-100" min="1" pattern="^[0-9]+" name="telefono" placeholder="Telefono" required/><br/>
         </div>
         <div class="col-6">
-          <input type="text" class="w-100" name="ubicacion" placeholder="Ubicacion" /><br />
+          <input type="text" class="w-100" name="ubicacion" placeholder="Ubicacion"/><br/>
         </div>
       </div>
       <div class="col">
@@ -53,6 +53,7 @@
         <button type="submit" class="btn btn-primary w-100">> Contactame</button>
         <input type="hidden" name="captcha" value="false">
         <input type="hidden" name="_next" value="https://davidnunez.netlify.app/">
+        <input type="hidden" name="_subject" value="Nueva consulta">
         <input type="hidden" name="_autoresponse" value="Gracias por contactarme, te respondere a la brevedad. David">
       </div>
     </form>
